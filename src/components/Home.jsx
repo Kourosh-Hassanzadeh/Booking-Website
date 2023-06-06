@@ -292,7 +292,7 @@ const Home = () => {
                 with the necessary regelialia. It is a paradisematic country, in
                 which roasted parts of sentences fly into your mouth.”
               </p>
-              <h3>Jean Smith</h3>
+              <h3 className="text-center mb-5">Jean Smith</h3>
             </div>
 
             <div className="col-md-4">
@@ -309,7 +309,7 @@ const Home = () => {
                 <br />
                 <br />
               </p>
-              <h3>Lia Fox</h3>
+              <h3 className="text-center mb-5">Lia Fox</h3>
             </div>
             <div className="col-md-4">
               <img
@@ -324,7 +324,7 @@ const Home = () => {
                 woman who also uses it and was of the same opinion.
                 <br />
               </p>
-              <h3>John Doe</h3>
+              <h3 className="text-center">John Doe</h3>
             </div>
           </div>
         </div>
