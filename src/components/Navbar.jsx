@@ -29,26 +29,30 @@ const Navbar = () => {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link text-white" href="/Home" style={{fontWeight:"bold"}}>
-                <i class="fa-solid fa-house text-white mr-2" ></i>
+              <a
+                class="nav-link text-white"
+                href="/Home"
+                style={{ fontWeight: "bold" }}
+              >
+                <i class="fa-solid fa-house text-white mr-2"></i>
                 Home
               </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link text-white" href="/Flights">
-              <i class="fa-solid fa-plane text-white mr-2"></i>
+                <i class="fa-solid fa-plane text-white mr-2"></i>
                 Flights
               </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link text-white" href="/Trains">
-              <i class="fa-solid fa-train text-white mr-2"></i>
+                <i class="fa-solid fa-train text-white mr-2"></i>
                 Trains
               </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link text-white" href="/Hotels">
-              <i class="fa-solid fa-bed text-white mr-2"></i>
+                <i class="fa-solid fa-bed text-white mr-2"></i>
                 Hotels and Suits
               </a>
             </li>
