@@ -300,7 +300,7 @@ const Home = () => {
                   <img className="card-img-top" src={event1} alt="event1" />
                   <div className="card-body">
                     <h6 style={{ color: "grey" }}>FEBRUARY 26, 2023</h6>
-                    <h5 class="card-title mb-4">
+                    <h5 className="card-title mb-4">
                       <a
                         className="text-dark"
                         href="https://www.kiwi.com/stories/10-top-tips-for-a-long-haul-flight/"
@@ -323,7 +323,7 @@ const Home = () => {
                   <img className="card-img-top" src={event2} alt="event2" />
                   <div className="card-body">
                     <h6 style={{ color: "grey" }}>FEBRUARY 26, 2023</h6>
-                    <h5 class="card-title mb-4">
+                    <h5 className="card-title mb-4">
                       <a
                         className="text-dark"
                         href="https://www.oberlo.com/blog/best-travel-jobs-to-make-money-traveling"
@@ -542,7 +542,7 @@ const Home = () => {
         </div>
 
         <div
-          className="container"
+          className="container mb-3"
           style={{
             marginTop: "100px",
             backgroundColor: "#e8e8e8",

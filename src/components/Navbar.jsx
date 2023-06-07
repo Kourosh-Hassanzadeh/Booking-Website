@@ -30,11 +30,11 @@ const Navbar = () => {
   return (
     <>
       <nav
-        class="navbar navbar-expand-lg navbar-light sticky-top"
+        className="navbar navbar-expand-lg navbar-light sticky-top"
         style={{ backgroundColor: "#8c8873" }}
       >
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
@@ -42,42 +42,41 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item active">
               <a
-                class="nav-link text-white"
+                className="nav-link text-white"
                 href="/Home"
                 style={{ fontWeight: "bold" }}
               >
-                <i class="fa-solid fa-house text-white mr-2"></i>
+                <i className="fa-solid fa-house text-white mr-2"></i>
                 Home
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="/Flights">
-                <i class="fa-solid fa-plane text-white mr-2"></i>
+            <li className="nav-item active">
+              <a className="nav-link text-white" href="/Flights">
+                <i className="fa-solid fa-plane text-white mr-2"></i>
                 Flights
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="/Trains">
-                <i class="fa-solid fa-train text-white mr-2"></i>
+            <li className="nav-item active">
+              <a className="nav-link text-white" href="/Trains">
+                <i className="fa-solid fa-train text-white mr-2"></i>
                 Trains
               </a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link text-white" href="/Hotels">
-                <i class="fa-solid fa-bed text-white mr-2"></i>
+            <li className="nav-item active">
+              <a className="nav-link text-white" href="/Hotels">
+                <i className="fa-solid fa-bed text-white mr-2"></i>
                 Hotels and Suits
               </a>
             </li>
           </ul>
         </div>
-        {/* <div id="google_translate_element"></div> */}
+        <div id="google_translate_element"></div>
         <button className="btn btn-light" onClick={navigateToLogin}>
           Login
         </button>
