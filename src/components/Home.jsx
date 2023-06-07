@@ -15,7 +15,7 @@ import avatar2 from "../assets/images/avatar2.jpg";
 import avatar3 from "../assets/images/avatar3.jpg";
 import event1 from "../assets/images/event1.jpg";
 import event2 from "../assets/images/event2.jpg";
-import event3 from "../assets/images/event2.jpg";
+import event3 from "../assets/images/event3.jpg";
 
 const Home = () => {
   return (
@@ -23,18 +23,18 @@ const Home = () => {
       <section>
         <div
           id="carouselExampleControls"
-          class="carousel slide"
+          className="carousel slide"
           data-ride="carousel"
         >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
               <img
-                class="d-block w-100"
+                className="d-block w-100"
                 src={slide1}
                 alt="First slide"
                 style={{ height: "92.2vh" }}
               />
-              <div class="carousel-caption">
+              <div className="carousel-caption">
                 <h1>Montana Resort</h1>
                 <h2>Unlock to enjoy the view of Martine</h2>
                 <a
@@ -47,14 +47,14 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <img
-                class="d-block w-100 h100"
+                className="d-block w-100 h100"
                 src={slide2}
                 alt="Second slide"
                 style={{ height: "92.2vh" }}
               />
-              <div class="carousel-caption">
+              <div className="carousel-caption">
                 <h1 className="text-white">Life Is Beautiful</h1>
                 <h2>Unlock to enjoy the view of Martine</h2>
                 <a
@@ -67,14 +67,14 @@ const Home = () => {
                 </a>
               </div>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <img
-                class="d-block w-100 h100"
+                className="d-block w-100 h100"
                 src={slide3}
                 alt="Third slide"
                 style={{ height: "92.2vh" }}
               />
-              <div class="carousel-caption">
+              <div className="carousel-caption">
                 <h1 className="text-white">Live In Paradise</h1>
                 <h2>Unlock to enjoy the view of Martine</h2>
                 <a
@@ -89,30 +89,30 @@ const Home = () => {
             </div>
           </div>
           <a
-            class="carousel-control-prev"
+            className="carousel-control-prev"
             href="#carouselExampleControls"
             role="button"
             data-slide="prev"
           >
             <span
-              class="carousel-control-prev-icon"
+              className="carousel-control-prev-icon"
               aria-hidden="true"
               style={{ width: "40px", height: "40px", borderRadius: "50%" }}
             ></span>
-            <span class="sr-only">Previous</span>
+            <span className="sr-only">Previous</span>
           </a>
           <a
-            class="carousel-control-next"
+            className="carousel-control-next"
             href="#carouselExampleControls"
             role="button"
             data-slide="next"
           >
             <span
-              class="carousel-control-next-icon"
+              className="carousel-control-next-icon"
               aria-hidden="true"
               style={{ width: "40px", height: "40px", borderRadius: "50%" }}
             ></span>
-            <span class="sr-only">Next</span>
+            <span className="sr-only">Next</span>
           </a>
         </div>
 
@@ -281,7 +281,6 @@ const Home = () => {
         </div>
 
         <div
-          // className="container"
           style={{ marginTop: "100px", backgroundColor: "#f2f4fb !important" }}
         >
           <div className="text-center mb-5">
@@ -297,9 +296,9 @@ const Home = () => {
           <div className="container">
             <div className="row">
               <div className="col-md-4">
-                <div class="card h-100" style={{ width: "20rem" }}>
-                  <img class="card-img-top" src={event1} alt="event1" />
-                  <div class="card-body">
+                <div className="card h-100" style={{ width: "20rem" }}>
+                  <img className="card-img-top" src={event1} alt="event1" />
+                  <div className="card-body">
                     <h6 style={{ color: "grey" }}>FEBRUARY 26, 2023</h6>
                     <h5 class="card-title mb-4">
                       <a
@@ -311,7 +310,7 @@ const Home = () => {
                         Travel Hacks to Make Your Flight More Comfortable
                       </a>
                     </h5>
-                    <p class="card-text">
+                    <p className="card-text">
                       Far far away, behind the word mountains, far from the
                       countries Vokalia and Consonantia, there live the blind
                       texts.
@@ -320,9 +319,9 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div class="card h-100" style={{ width: "20rem" }}>
-                  <img class="card-img-top" src={event2} alt="event1" />
-                  <div class="card-body">
+                <div className="card h-100" style={{ width: "20rem" }}>
+                  <img className="card-img-top" src={event2} alt="event2" />
+                  <div className="card-body">
                     <h6 style={{ color: "grey" }}>FEBRUARY 26, 2023</h6>
                     <h5 class="card-title mb-4">
                       <a
@@ -335,7 +334,7 @@ const Home = () => {
                         World
                       </a>
                     </h5>
-                    <p class="card-text">
+                    <p className="card-text">
                       Separated they live in Bookmarksgrove right at the coast
                       of the Semantics, a large language ocean.
                     </p>
@@ -343,11 +342,11 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div class="card h-100" style={{ width: "20rem" }}>
-                  <img class="card-img-top" src={event2} alt="event1" />
-                  <div class="card-body">
+                <div className="card h-100" style={{ width: "20rem" }}>
+                  <img className="card-img-top" src={event3} alt="event3" />
+                  <div className="card-body">
                     <h6 style={{ color: "grey" }}>FEBRUARY 26, 2023</h6>
-                    <h5 class="card-title mb-4">
+                    <h5 className="card-title mb-4">
                       <a
                         className="text-dark"
                         href="https://www.nytimes.com/wirecutter/gifts/best-for-travelers/"
@@ -357,7 +356,7 @@ const Home = () => {
                         30 Great Ideas On Gifts For Travelers
                       </a>
                     </h5>
-                    <p class="card-text">
+                    <p className="card-text">
                       A small river named Duden flows by their place and
                       supplies it with the necessary regelialia. t is a
                       paradisematic country, in which roasted parts of
@@ -370,28 +369,28 @@ const Home = () => {
           </div>
         </div>
 
-        <div class="container" style={{ marginTop: "100px" }}>
+        <div className="container" style={{ marginTop: "100px" }}>
           <h2>Your Questions</h2>
           <div id="accordion">
-            <div class="card">
+            <div className="card">
               <div
-                class="d-flex card-header header"
+                className="d-flex card-header header"
                 data-toggle="collapse"
                 href="#collapseOne"
                 style={{ backgroundColor: "#e8e8e8" }}
               >
                 <a
-                  class="card-link collapse-text text-dark"
+                  className="card-link collapse-text text-dark"
                   data-toggle="collapse"
                   href="#collapseOne"
                 >
                   How many days before the flight should we buy the plane
                   ticket?
                 </a>
-                <i class="fa-sharp fa-solid fa-angle-down ml-auto"></i>
+                <i className="fa-sharp fa-solid fa-angle-down ml-auto"></i>
               </div>
-              <div id="collapseOne" class="collapse">
-                <div class="card-body">
+              <div id="collapseOne" className="collapse">
+                <div className="card-body">
                   It is possible to book plane tickets months in advance. But
                   sometimes the price of plane tickets becomes cheaper in the
                   days close to the flight. Therefore, if your situation allows,
@@ -403,24 +402,24 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="card">
+            <div className="card">
               <div
-                class="d-flex card-header header"
+                className="d-flex card-header header"
                 data-toggle="collapse"
                 href="#collapseTwo"
                 style={{ backgroundColor: "#e8e8e8" }}
               >
                 <a
-                  class="collapsed card-link collapse-text text-dark"
+                  className="collapsed card-link collapse-text text-dark"
                   data-toggle="collapse"
                   href="#collapseTwo"
                 >
                   What is the allowed amount of baggage per flight?
                 </a>
-                <i class="fa-sharp fa-solid fa-angle-down ml-auto"></i>
+                <i className="fa-sharp fa-solid fa-angle-down ml-auto"></i>
               </div>
-              <div id="collapseTwo" class="collapse">
-                <div class="card-body">
+              <div id="collapseTwo" className="collapse">
+                <div className="card-body">
                   The amount of baggage allowance depends on the flight class
                   and the fare class of the ticket. When buying a plane ticket
                   online, you can see the amount of baggage allowance in the
@@ -430,24 +429,24 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="card">
+            <div className="card">
               <div
-                class="d-flex card-header header"
+                className="d-flex card-header header"
                 data-toggle="collapse"
                 href="#collapseThree"
                 style={{ backgroundColor: "#e8e8e8" }}
               >
                 <a
-                  class="card-link collapse-text text-dark"
+                  className="card-link collapse-text text-dark"
                   data-toggle="collapse"
                   href="#collapseThree"
                 >
                   When can rail tickets be booked in Tatkal?
                 </a>
-                <i class="fa-sharp fa-solid fa-angle-down ml-auto"></i>
+                <i className="fa-sharp fa-solid fa-angle-down ml-auto"></i>
               </div>
-              <div id="collapseThree" class="collapse">
-                <div class="card-body">
+              <div id="collapseThree" className="collapse">
+                <div className="card-body">
                   Tatkal rail ticketing enables you to purchase train tickets at
                   the last minute. The Tatkal quota opens one day before the
                   departure date from the station where the train will depart.
@@ -459,24 +458,24 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="card">
+            <div className="card">
               <div
-                class="d-flex card-header header"
+                className="d-flex card-header header"
                 data-toggle="collapse"
                 href="#collapseFour"
                 style={{ backgroundColor: "#e8e8e8" }}
               >
                 <a
-                  class="collapsed card-link collapse-text text-dark"
+                  className="collapsed card-link collapse-text text-dark"
                   data-toggle="collapse"
                   href="#collapseFour"
                 >
                   What is Premium Tatkal booking?
                 </a>
-                <i class="fa-sharp fa-solid fa-angle-down ml-auto"></i>
+                <i className="fa-sharp fa-solid fa-angle-down ml-auto"></i>
               </div>
-              <div id="collapseFour" class="collapse">
-                <div class="card-body">
+              <div id="collapseFour" className="collapse">
+                <div className="card-body">
                   The Indian railways have introduced Premium Tatkal tickets,
                   which feature dynamic rates, for booking online train tickets.
                   It’s worth noting that ticket costs rise as the number of
@@ -486,24 +485,24 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="card">
+            <div className="card">
               <div
-                class="d-flex card-header header"
+                className="d-flex card-header header"
                 data-toggle="collapse"
                 href="#collapseFive"
                 style={{ backgroundColor: "#e8e8e8" }}
               >
                 <a
-                  class="collapsed card-link collapse-text text-dark"
+                  className="collapsed card-link collapse-text text-dark"
                   data-toggle="collapse"
                   href="#collapseFive"
                 >
                   At what time is the check-in for the room?
                 </a>
-                <i class="fa-sharp fa-solid fa-angle-down ml-auto"></i>
+                <i className="fa-sharp fa-solid fa-angle-down ml-auto"></i>
               </div>
-              <div id="collapseFive" class="collapse">
-                <div class="card-body">
+              <div id="collapseFive" className="collapse">
+                <div className="card-body">
                   Normally our rooms are available from 14:00 pm. For all our
                   guest booking from this web site, we offer the possibility of
                   an early check-in (except when the room is still busy by the
@@ -513,24 +512,24 @@ const Home = () => {
               </div>
             </div>
 
-            <div class="card">
+            <div className="card">
               <div
-                class="d-flex card-header header"
+                className="d-flex card-header header"
                 data-toggle="collapse"
                 href="#collapseSix"
                 style={{ backgroundColor: "#e8e8e8" }}
               >
                 <a
-                  class="collapsed card-link collapse-text text-dark"
+                  className="collapsed card-link collapse-text text-dark"
                   data-toggle="collapse"
                   href="#collapseSix"
                 >
                   At what time is the check-out for the room?
                 </a>
-                <i class="fa-sharp fa-solid fa-angle-down ml-auto"></i>
+                <i className="fa-sharp fa-solid fa-angle-down ml-auto"></i>
               </div>
-              <div id="collapseSix" class="collapse">
-                <div class="card-body">
+              <div id="collapseSix" className="collapse">
+                <div className="card-body">
                   Check-out is at 12:00 pm. For all the guests booking directly
                   from our website, there is the possibility to postpone the
                   check-out at 11.00 am on request if it is possible for us as
