@@ -1,7 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  // const googleTranslateElementInit = () => {
+  //   new window.google.translate.TranslateElement(
+  //     {
+  //       pageLanguage: "en",
+  //       autoDisplay: false,
+  //     },
+  //     "google_translate_element"
+  //   );
+  // };
+  // useEffect(() => {
+  //   var addScript = document.createElement("script");
+  //   addScript.setAttribute(
+  //     "src",
+  //     "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+  //   );
+  //   document.body.appendChild(addScript);
+  //   window.googleTranslateElementInit = googleTranslateElementInit;
+  // }, []);
+
   const navigate = useNavigate();
 
   function navigateToLogin() {
@@ -58,6 +77,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+        {/* <div id="google_translate_element"></div> */}
         <button className="btn btn-light" onClick={navigateToLogin}>
           Login
         </button>
