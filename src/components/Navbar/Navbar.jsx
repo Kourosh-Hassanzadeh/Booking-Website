@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import "./style.css";
 
 const Navbar = () => {
   // const googleTranslateElementInit = () => {
@@ -29,10 +30,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav
-        className="navbar navbar-expand-lg navbar-light sticky-top"
-        style={{ backgroundColor: "#8c8873" }}
-      >
+      <nav className="navbar navbar-expand-lg navbar-light sticky-top navbar-bg">
         <button
           className="navbar-toggler"
           type="button"
@@ -47,11 +45,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a
-                className="nav-link text-white"
-                href="/Home"
-                style={{ fontWeight: "bold" }}
-              >
+              <a className="nav-link text-white navbar-home" href="/Home">
                 <i className="fa-solid fa-house text-white mr-2"></i>
                 Home
               </a>

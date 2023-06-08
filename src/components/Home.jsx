@@ -5,7 +5,7 @@ import slide3 from "../assets/images/slide3.jpg";
 import rest from "../assets/images/rest.jpg";
 import foods from "../assets/images/foods.jpg";
 import resort from "../assets/images/resort.jpg";
-import hotel from "../assets/images/hotel_room.jpg";
+import hotel from "../assets/images/hotel.jpg";
 import yatch from "../assets/images/yatch.jpg";
 import singleRoom from "../assets/images/single-room.jpg";
 import doubleRoom from "../assets/images/double-room.jpg";
@@ -280,9 +280,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div
-          style={{ marginTop: "100px", backgroundColor: "#f2f4fb !important" }}
-        >
+        <div style={{ marginTop: "100px", backgroundColor: "#f2f4fb" }}>
           <div className="text-center mb-5">
             <h2>Events</h2>
             <p>

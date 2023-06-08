@@ -1,0 +1,20 @@
+.footer-bg {
+  background-color: #7a706f;
+}
+
+.footer-columns {
+  margin-top: 70px;
+  color: white;
+}
+
+.footer-email-text {
+  font-size: 0.75rem;
+}
+
+.footer-logos {
+  font-size: 30px;
+}
+
+input.footer {
+  border-radius: 5px;
+}

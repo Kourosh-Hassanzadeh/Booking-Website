@@ -1,15 +1,15 @@
-.flight-img {
-  background-image: url("../../assets/images/flight.jpg");
+.train-main {
+  background-image: url("../../assets/images/train.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100vw;
   height: 100vh;
 }
 
-button.test-flight,
-input.flight[type="text"],
-input.flight[type="date"],
-input.flight[type="number"] {
+button.train,
+input.train[type="text"],
+input.train[type="date"],
+input.train[type="number"] {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -18,32 +18,32 @@ input.flight[type="number"] {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-input.flight[type="text"] {
+input.train[type="text"] {
   font-family: Arial, sans-serif;
 }
 
-input.flight:hover {
+input.train:hover {
   background-color: beige;
 }
-
-.text-flight {
+.text-train {
   background-color: white;
   color: black;
   font-size: 2vw;
   font-weight: bold;
-  margin: 10% auto;
+  margin: 50% auto;
   padding: 3px;
   text-align: center;
   mix-blend-mode: screen;
   border-radius: 5px;
 }
 
-label.flight {
-  color: white;
-}
-
 @media screen and (max-width: 760px) {
-  .text-flight {
+  label.train {
+    color: white;
+  }
+}
+@media screen and (max-width: 760px) {
+  .text-train {
     display: none;
   }
 }
