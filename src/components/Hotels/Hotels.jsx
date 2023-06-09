@@ -12,7 +12,7 @@ const Hotels = () => {
                 <div className="row justify-content-center">
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="train-lb" for="city">
+                      <label className="hotel-lb" for="city">
                         City
                       </label>
                       <input
@@ -27,7 +27,7 @@ const Hotels = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="train-lb" for="passengers">
+                      <label className="hotel-lb" for="passengers">
                         Passengers
                       </label>
                       <input
@@ -43,7 +43,7 @@ const Hotels = () => {
                 <div className="row justify-content-center">
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="train-lb" for="Check-in Date">
+                      <label className="hotel-lb" for="Check-in Date">
                         Check-in Date
                       </label>
                       <input
@@ -57,7 +57,7 @@ const Hotels = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="train-lb" for="Check-out Date">
+                      <label className="hotel-lb" for="Check-out Date">
                         Check-out Date
                       </label>
                       <input

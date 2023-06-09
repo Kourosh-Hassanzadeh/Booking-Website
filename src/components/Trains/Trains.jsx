@@ -51,7 +51,7 @@ const Trains = () => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <label className="train-lb" for="departure">
-                        departure Date
+                        Departure Date
                       </label>
                       <input
                         className="train-inp"

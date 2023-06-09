@@ -549,7 +549,7 @@ const Home = () => {
         >
           <h1 className="text-center mb-4">Comments</h1>
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 border-right border-dark mb-3">
               <img
                 className="rounded-circle mx-auto mb-2"
                 src={avatar}
@@ -564,7 +564,7 @@ const Home = () => {
               <h3 className="text-center mb-5">Jean Smith</h3>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 border-right border-dark mb-3">
               <img
                 className="rounded-circle mx-auto mb-2"
                 src={avatar2}

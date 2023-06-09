@@ -38,7 +38,7 @@ input.train-inp:hover {
 }
 
 @media screen and (max-width: 760px) {
-  label.train-lb {
+  .train-lb {
     color: white;
   }
 }
