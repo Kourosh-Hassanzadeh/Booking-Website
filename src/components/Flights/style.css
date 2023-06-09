@@ -6,10 +6,10 @@
   height: 100vh;
 }
 
-button.test-flight,
-input.flight[type="text"],
-input.flight[type="date"],
-input.flight[type="number"] {
+button.flight-btn,
+input.flight-inp[type="text"],
+input.flight-inp[type="date"],
+input.flight-inp[type="number"] {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -18,11 +18,11 @@ input.flight[type="number"] {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-input.flight[type="text"] {
+input.flight-inp[type="text"] {
   font-family: Arial, sans-serif;
 }
 
-input.flight:hover {
+input.flight-inp:hover {
   background-color: beige;
 }
 
@@ -38,7 +38,7 @@ input.flight:hover {
   border-radius: 5px;
 }
 
-label.flight {
+label.flight-lb {
   color: white;
 }
 

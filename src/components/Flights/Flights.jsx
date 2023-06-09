@@ -12,11 +12,11 @@ const Flights = () => {
                 <div className="row justify-content-center">
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="flight" for="from">
+                      <label className="flight-lb" for="from">
                         From?
                       </label>
                       <input
-                        className="flight"
+                        className="flight-inp"
                         type="text"
                         name="from"
                         id="from"
@@ -27,11 +27,11 @@ const Flights = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="flight" for="to">
+                      <label className="flight-lb" for="to">
                         To?
                       </label>
                       <input
-                        className="flight"
+                        className="flight-inp"
                         type="text"
                         name="to"
                         id="to"
@@ -44,11 +44,11 @@ const Flights = () => {
                 <div className="row justify-content-center">
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="flight" for="departure">
+                      <label className="flight-lb" for="departure">
                         departure Date
                       </label>
                       <input
-                        className="flight"
+                        className="flight-inp"
                         type="date"
                         name="departure"
                         id="departure"
@@ -58,11 +58,11 @@ const Flights = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="flight" for="return">
+                      <label className="flight-lb" for="return">
                         Return Date
                       </label>
                       <input
-                        className="flight"
+                        className="flight-inp"
                         type="date"
                         name="return"
                         id="return"
@@ -72,11 +72,11 @@ const Flights = () => {
                 </div>
                 <div className="row justify-content-center">
                   <div className="form-group">
-                    <label className="flight" for="passengers">
+                    <label className="flight-lb" for="passengers">
                       Passengers
                     </label>
                     <input
-                      className="flight"
+                      className="flight-inp"
                       type="number"
                       name="passengers"
                       id="passengers"
@@ -86,7 +86,7 @@ const Flights = () => {
                 </div>
                 <div className="row justify-content-center">
                   <div className="form-group">
-                    <button class="btn btn-light test-flight" type="submit">
+                    <button class="btn btn-light flight-btn" type="submit">
                       Search
                     </button>
                   </div>

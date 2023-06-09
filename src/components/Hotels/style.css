@@ -1,15 +1,15 @@
-.train-main {
-  background-image: url("../../assets/images/train.jpg");
+.hotel-main {
+  background-image: url("../../assets/images/hotel.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100vw;
   height: 100vh;
 }
 
-button.train-btn,
-input.train-inp[type="text"],
-input.train-inp[type="date"],
-input.train-inp[type="number"] {
+button.hotel-btn,
+input.hotel-inp[type="text"],
+input.hotel-inp[type="date"],
+input.hotel-inp[type="number"] {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
@@ -18,32 +18,30 @@ input.train-inp[type="number"] {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-input.train-inp[type="text"] {
+input.hotel-inp[type="text"] {
   font-family: Arial, sans-serif;
 }
 
-input.train-inp:hover {
-  background-color: beige;
+input.hotel-inp:hover {
+  background-color: lightcyan;
 }
-.text-train {
+.text-hotel {
   background-color: white;
   color: black;
   font-size: 2vw;
   font-weight: bold;
-  margin: 50% auto;
+  margin: 10% auto;
   padding: 3px;
   text-align: center;
   mix-blend-mode: screen;
   border-radius: 5px;
 }
+label.train-lb{
+  color: white;
+}
 
 @media screen and (max-width: 760px) {
-  label.train-lb {
-    color: white;
-  }
-}
-@media screen and (max-width: 760px) {
-  .text-train {
+  .test {
     display: none;
   }
 }

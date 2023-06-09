@@ -5,7 +5,7 @@ import slide3 from "../assets/images/slide3.jpg";
 import rest from "../assets/images/rest.jpg";
 import foods from "../assets/images/foods.jpg";
 import resort from "../assets/images/resort.jpg";
-import hotel from "../assets/images/hotel.jpg";
+import hotel from "../assets/images/hotel-room.jpg";
 import yatch from "../assets/images/yatch.jpg";
 import singleRoom from "../assets/images/single-room.jpg";
 import doubleRoom from "../assets/images/double-room.jpg";

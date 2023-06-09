@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./style.css";
 
 const Navbar = () => {
@@ -44,33 +44,33 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <a className="nav-link text-white navbar-home" href="/Home">
+            <li className="nav-item">
+              <NavLink className="nav-link text-white navbar-home" to="/home">
                 <i className="fa-solid fa-house text-white mr-2"></i>
                 Home
-              </a>
+              </NavLink>
             </li>
-            <li className="nav-item active">
-              <a className="nav-link text-white" href="/Flights">
+            <li className="nav-item">
+              <NavLink className="nav-link text-white" to="/flights">
                 <i className="fa-solid fa-plane text-white mr-2"></i>
                 Flights
-              </a>
+              </NavLink>
             </li>
-            <li className="nav-item active">
-              <a className="nav-link text-white" href="/Trains">
+            <li className="nav-item">
+              <NavLink className="nav-link text-white" to="/trains">
                 <i className="fa-solid fa-train text-white mr-2"></i>
                 Trains
-              </a>
+              </NavLink>
             </li>
-            <li className="nav-item active">
-              <a className="nav-link text-white" href="/Hotels">
+            <li className="nav-item">
+              <NavLink className="nav-link text-white" to="/hotels">
                 <i className="fa-solid fa-bed text-white mr-2"></i>
                 Hotels and Suits
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
-        <div id="google_translate_element"></div>
+        {/* <div id="google_translate_element"></div> */}
         <button className="btn btn-light" onClick={navigateToLogin}>
           Login
         </button>

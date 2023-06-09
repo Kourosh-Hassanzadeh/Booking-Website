@@ -20,11 +20,9 @@ const Trains = () => {
                 <div className="row justify-content-center">
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="train-from" for="from">
-                        From?
-                      </label>
+                      <label for="from">From?</label>
                       <input
-                        className="train"
+                        className="train-inp"
                         type="text"
                         name="from"
                         id="from"
@@ -35,11 +33,11 @@ const Trains = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="train" for="to">
+                      <label className="train-lb" for="to">
                         To?
                       </label>
                       <input
-                        className="train"
+                        className="train-inp"
                         type="text"
                         name="to"
                         id="to"
@@ -52,11 +50,11 @@ const Trains = () => {
                 <div className="row justify-content-center">
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="train" for="departure">
+                      <label className="train-lb" for="departure">
                         departure Date
                       </label>
                       <input
-                        className="train"
+                        className="train-inp"
                         type="date"
                         name="departure"
                         id="departure"
@@ -66,11 +64,11 @@ const Trains = () => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
-                      <label className="train" for="return">
+                      <label className="train-lb" for="return">
                         Return Date
                       </label>
                       <input
-                        className="train"
+                        className="train-inp"
                         type="date"
                         name="return"
                         id="return"
@@ -80,11 +78,11 @@ const Trains = () => {
                 </div>
                 <div className="row justify-content-center">
                   <div className="form-group">
-                    <label className="train" for="passengers">
+                    <label className="train-lb" for="passengers">
                       Passengers
                     </label>
                     <input
-                      className="train"
+                      className="train-inp"
                       type="number"
                       name="passengers"
                       id="passengers"
@@ -94,7 +92,7 @@ const Trains = () => {
                 </div>
                 <div className="row justify-content-center">
                   <div className="form-group">
-                    <button className="btn btn-light train" type="submit">
+                    <button className="btn btn-light train-btn" type="submit">
                       Search
                     </button>
                   </div>
