@@ -114,7 +114,7 @@ input.login-sb[type="submit"]:active {
   transition: 0.5s;
 }
 
-.login-inputBox input.login-inp ~ span.login-sp,
+.login-inputBox input.login-inp:valid ~ span.login-sp,
 .login-inputBox input.login-inp:focus ~ span.login-sp {
   color: #45f3ff;
   transform: translateX(-10px) translateY(-30px);
@@ -134,10 +134,11 @@ input.login-sb[type="submit"]:active {
   z-index: 9;
 }
 
-.login-inputBox input.login-inp ~ i,
+.login-inputBox input.login-inp:valid ~ i,
 .login-inputBox input.login-inp:focus ~ i {
   height: 44px;
 }
+
 .login-links {
   display: flex;
   justify-content: space-between;
