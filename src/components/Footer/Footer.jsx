@@ -16,11 +16,10 @@ const Footer = () => {
             <div className="col-md-4 border-right footer-columns">
               <h2>CONTACT</h2>
               <i className="fa-solid fa-phone text-white mr-1"></i>
-              TELEPHONE&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (012)
-              345-6789
+              TELEPHONE&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; (012) 345-6789
               <hr color="white" />
               <i className="fa-solid fa-envelope text-white mr-1"></i>
-              Email&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Bookin@gmail.com
+              Email&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Bookin@gmail.com
             </div>
             <div className="col-md-4 footer-columns">
               <h2>NEWSLETTER</h2>
