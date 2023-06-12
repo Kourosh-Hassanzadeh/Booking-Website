@@ -34,10 +34,10 @@ const Login = () => {
               </div>
               <input className="login-sb" type="submit" value="Login" />
               <div className="login-links">
-                <a className="login-a" href="#">
+                <a className="login-a" href="/signUp">
                   Forgot Password?
                 </a>
-                <a className="login-a" href="#">
+                <a className="login-a" href="/signUp">
                   Sign Up
                 </a>
               </div>
