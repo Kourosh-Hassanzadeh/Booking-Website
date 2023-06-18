@@ -23,7 +23,7 @@ input.hotel-inp[type="text"] {
 }
 
 input.hotel-inp:hover {
-  background-color: lightcyan;
+  background-color: beige;
 }
 .text-hotel {
   background-color: white;
