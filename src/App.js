@@ -8,6 +8,7 @@ import Flights from "./components/Flights/Flights";
 import Trains from "./components/Trains/Trains";
 import Hotels from "./components/Hotels/Hotels";
 import SignUp from "./components/SignUp/SignUp";
+import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/flights" element={<Flights />} />
         <Route path="/trains" element={<Trains />} />
         <Route path="/hotels" element={<Hotels />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="*" element={<Navigate to="home" replace />} />
       </Routes>
       <Footer />
