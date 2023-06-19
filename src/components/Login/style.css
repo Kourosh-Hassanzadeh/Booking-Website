@@ -17,7 +17,7 @@
   height: 100vh;
 }
 
-.box {
+.login-box {
   position: relative;
   width: 370px;
   height: 450px;
@@ -25,7 +25,7 @@
   border-radius: 50px 5px;
   overflow: hidden;
 }
-.box::before {
+.login-box::before {
   content: "";
   position: absolute;
   top: -50px;
@@ -36,7 +36,7 @@
   transform-origin: bottom right;
   animation: animate 6s linear infinite;
 }
-.box::after {
+.login-box::after {
   content: "";
   position: absolute;
   top: -50px;

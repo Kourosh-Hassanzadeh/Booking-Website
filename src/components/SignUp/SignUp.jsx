@@ -87,66 +87,72 @@ const Signup = () => {
 
   return (
     <>
-      <div className="login-bg">
-        <div className="login-body">
-          <div className="box">
-            <form className="login-form" action="" onSubmit={handleSubmit}>
-              <h2 className="login-h">Sign Up</h2>
+      <div className="signUp-bg">
+        <div className="signUp-body">
+          <div className="signUp-box">
+            <form className="signUp-form" action="" onSubmit={handleSubmit}>
+              <h2 className="signUp-h">Sign Up</h2>
               {error && <div class="text-danger">{error}</div>}
-              <div className="login-inputBox">
+              <div className="signUp-inputBox">
                 <input
-                  className="login-inp"
+                  className="signUp-inp"
                   name="email"
                   id="email"
                   type="email"
                   required
                   onChange={(e) => setEmail(e.target.value)}
                 />
-                <span className="login-sp">Email</span>
+                <span className="signUp-sp">Email</span>
                 <i></i>
               </div>
 
-              <div className="login-inputBox">
+              <div className="signUp-inputBox">
                 <input
-                  className="login-inp"
+                  className="signUp-inp"
                   name="number"
                   id="phoneNumber"
                   type="tel"
                   required
                   onChange={(e) => setphoneNum(e.target.value)}
                 />
-                <span className="login-sp">Phone Number</span>
+                <span className="signUp-sp">Phone Number</span>
                 <i></i>
               </div>
 
-              <div className="login-inputBox">
+              <div className="signUp-inputBox">
                 <input
-                  className="login-inp"
+                  className="signUp-inp"
                   name="password"
                   id="password"
                   type="password"
                   required
                   onChange={handlePasswordChange}
                 />
-                <span className="login-sp">Password</span>
+                <span className="signUp-sp">Password</span>
                 <i></i>
               </div>
               <div className="text-white text-center mt-3 d-none ps-st">
                 password strength : {strength}
               </div>
-              <div className="login-inputBox">
+              <div className="signUp-inputBox">
                 <input
-                  className="login-inp"
+                  className="signUp-inp"
                   name="repeatPassword"
                   id="repeatPassword"
                   type="password"
                   required
                   onChange={(e) => setRepeatPassword(e.target.value)}
                 />
-                <span className="login-sp">repeatPassword</span>
+                <span className="signUp-sp">repeatPassword</span>
                 <i></i>
               </div>
-              <input className="login-sb" type="submit" value="Sign Up" />
+              <input className="signUp-sb" type="submit" value="Sign Up" />
+
+              <div className="signUp-links justify-content-center">
+                <a className="signUp-a" href="/login">
+                  Login
+                </a>
+              </div>
             </form>
           </div>
         </div>
