@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import avatar from "../../assets/images/signUp.jpg"
+import avatar from "../../assets/images/signUp.jpg";
 
 const Profile = () => {
   function selectImage() {
@@ -13,12 +13,9 @@ const Profile = () => {
   }
   return (
     <>
-      <section
-        className="vh-100"
-        style={{ backgroundColor: "#C3BEB9", height: "100vh" }}
-      >
+      <section className="vh-100" style={{ backgroundColor: "#C3BEB9" }}>
         <div className="container py-5 h-100">
-          <div className="row d-flex justify-content-center align-items-center h-100">
+          <div className="row d-flex justify-content-center align-items-center h-100 mb-5">
             <div className="col col-lg-6 mb-4 mb-lg-0">
               <div className="card mb-3" style={{ borderRadius: ".5rem" }}>
                 <div className="row g-0">
@@ -29,22 +26,21 @@ const Profile = () => {
                       borderBottomLeftRadius: ".5rem",
                     }}
                   >
-                      <img
-                        src={avatar}
-                        alt="Avatar"
-                        id="image"
-                        className="img-fluid my-5 rounded-circle"
-                        // style={{ width: "100%;", height: }}
-                      />
+                    <img
+                      src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+                      alt="Avatar"
+                      id="image"
+                      className="img-fluid my-5 rounded-circle"
+                    />
                     <input
-                      className="btn btn-sm"
+                      className="btn-sm"
                       type="file"
                       name="inImg"
                       id="inImg"
+                      accept="image/png, image/gif, image/jpeg"
                       onClick={selectImage}
                     />
-                    <h5>Marie Horwitz</h5>
-                    <p>Web Designer</p>
+                    <h5>Kourosh Hassanzadeh</h5>
                     <a
                       href="/login"
                       style={{ textDecoration: "none", color: "white" }}
