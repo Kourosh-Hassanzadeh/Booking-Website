@@ -1,16 +1,7 @@
 import React from "react";
 import "./style.css";
-import avatar from "../../assets/images/signUp.jpg";
 
 const Profile = () => {
-  function selectImage() {
-    var file = document.getElementById("inImg");
-    var img = document.getElementById("image");
-    file.addEventListener(
-      "change",
-      (e) => (img.src = URL.createObjectURL(e.target.files[0]))
-    );
-  }
   return (
     <>
       <section className="vh-100" style={{ backgroundColor: "#C3BEB9" }}>
@@ -32,17 +23,10 @@ const Profile = () => {
                       id="image"
                       className="img-fluid my-5 rounded-circle"
                     />
-                    <input
-                      className="btn-sm"
-                      type="file"
-                      name="inImg"
-                      id="inImg"
-                      accept="image/png, image/gif, image/jpeg"
-                      onClick={selectImage}
-                    />
+
                     <h5>Kourosh Hassanzadeh</h5>
                     <a
-                      href="/login"
+                      href="/editProfile"
                       style={{ textDecoration: "none", color: "white" }}
                     >
                       <i className="far fa-edit mb-5 mr-2"></i>
@@ -56,22 +40,22 @@ const Profile = () => {
                       <div className="row pt-1">
                         <div className="col-6 mb-3">
                           <h6>Email</h6>
-                          <p className="text-muted">info@example.com</p>
+                          <pre className="text-muted">Kourosh@gmail.com</pre>
                         </div>
                         <div className="col-6 mb-3">
                           <h6>Phone</h6>
-                          <p className="text-muted">123 456 789</p>
+                          <pre className="text-muted">123 456 789</pre>
                         </div>
                       </div>
                       <hr className="mt-3 mb-4" />
                       <div className="row d-flex">
                         <div className="col-12">
                           <h6>Address</h6>
-                          <p>
-                            <pre className="text-muted">
-                              Mashhad, Sajjad BLVD, Yasaman St{" "}
-                            </pre>
-                          </p>
+                          <pre className="text-muted">
+                            Mashhad, Sajjad BLVD, Yasaman St{" "}
+                          </pre>
+                          <h6>Birth Date</h6>
+                          <pre className="text-muted">2002/07/03</pre>
                         </div>
                       </div>
                     </div>
