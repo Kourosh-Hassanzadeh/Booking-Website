@@ -155,10 +155,10 @@ input.login-sb[type="submit"]:active {
 }
 
 .login-links a.login-a:hover,
-.login-links a.login-a:nth-child(2) {
+.login-links a.login-a:nth-child(1) {
   color: #45f3ff;
 }
-.login-links a.login-a:nth-child(2):hover {
+.login-links a.login-a:nth-child(1):hover {
   text-decoration: underline 2px;
   text-underline-offset: 5px;
 }

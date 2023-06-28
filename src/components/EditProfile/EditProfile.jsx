@@ -10,6 +10,9 @@ const EditProfile = () => {
       (e) => (img.src = URL.createObjectURL(e.target.files[0]))
     );
   }
+  function navigateToProfile() {
+    window.location.href = "/profile";
+  }
   return (
     <>
       <div className="main">
@@ -43,7 +46,7 @@ const EditProfile = () => {
               </div>
             </div>
             <div className="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
-              <form action="/profile">
+              <form onSubmit={navigateToProfile}>
                 <div className="card h-100">
                   <div className="card-body">
                     <div className="row gutters">
@@ -152,15 +155,16 @@ const EditProfile = () => {
                             id="submit"
                             name="submit"
                             className="btn btn-secondary"
+                            onClick={navigateToProfile}
                           >
                             Cancel
                           </button>
                           <button
-                            type="submit"
+                            type="button"
                             id="submit"
                             name="submit"
                             className="btn btn-primary"
-                            //   onClick={navigateToProfile}
+                            onClick={navigateToProfile}
                           >
                             Update
                           </button>

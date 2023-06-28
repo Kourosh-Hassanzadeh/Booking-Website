@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./style.css";
@@ -24,7 +24,7 @@ const SignUp = () => {
       password === repeatPassword
     ) {
       setError("");
-      navigate("/home");
+      navigate("/profile")
     } else {
       setError("Passwords are not match !");
     }
@@ -33,8 +33,6 @@ const SignUp = () => {
   const calculatePasswordStrength = (value) => {
     let score = 0;
     value = password;
-    // console.log(password);
-
     if (!value) {
       setStrength("");
       return;
@@ -100,7 +98,10 @@ const SignUp = () => {
     <>
       <div className="signUp-bg">
         <div className="signUp-box mb-5">
-          <form className="signUp-form" action="" onSubmit={handleSubmit}>
+          <form
+            className="signUp-form"
+            onSubmit={handleSubmit}
+          >
             <h2 className="signUp-h">Sign Up</h2>
             {error && <div class="text-danger">{error}</div>}
             <div className="signUp-inputBox">

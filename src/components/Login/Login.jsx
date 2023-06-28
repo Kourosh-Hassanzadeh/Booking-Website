@@ -6,7 +6,7 @@ const Login = () => {
     <>
       <div className="login-bg">
         <div className="login-box">
-          <form className="login-form" action="">
+          <form className="login-form" action="/home">
             <h2 className="login-h">Login</h2>
             <div className="login-inputBox">
               <input
@@ -32,10 +32,7 @@ const Login = () => {
               <i></i>
             </div>
             <input className="login-sb" type="submit" value="Login" />
-            <div className="login-links">
-              <a className="login-a" href="/profile">
-                Forgot Password?
-              </a>
+            <div className="login-links justify-content-center">
               <a className="login-a" href="/signUp">
                 Sign Up
               </a>
