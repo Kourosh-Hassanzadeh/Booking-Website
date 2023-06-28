@@ -47,16 +47,16 @@ const Footer = () => {
           <div className="row text-white justify-content-center mt-4">
             <h3 className="mr-2 mt-1">FOLLOW US</h3>
             <div></div>
-            <a className="footer-logos" href="facebook.com">
+            <a className="footer-logos" href="https://facebook.com">
               <i className="fa-brands fa-facebook text-white mr-2"></i>
             </a>
-            <a className="footer-logos" href="twitter.com">
+            <a className="footer-logos" href="https://twitter.com">
               <i className="fa-brands fa-twitter text-white mr-2"></i>
             </a>
-            <a className="footer-logos" href="telegram.com">
+            <a className="footer-logos" href="https://telegram.com">
               <i className="fa-brands fa-telegram text-white mr-2"></i>
             </a>
-            <a className="footer-logos" href="instagram.com">
+            <a className="footer-logos" href="https://instagram.com">
               <i className="fa-brands fa-instagram text-white mr-2"></i>
             </a>
           </div>
