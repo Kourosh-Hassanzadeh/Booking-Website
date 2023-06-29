@@ -1,3 +1,4 @@
+import { type } from "@testing-library/user-event/dist/type";
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -11,6 +12,7 @@ const SignUp = () => {
   const [error, setError] = useState("");
   const [strength, setStrength] = useState("");
   const [strengthColor, setStrengthColor] = useState("");
+  const [isIconClicked, setIsIconClicked] = useState(false);
 
   const navigate = useNavigate();
 
@@ -24,7 +26,7 @@ const SignUp = () => {
       password === repeatPassword
     ) {
       setError("");
-      navigate("/profile")
+      navigate("/profile");
     } else {
       setError("Passwords are not match !");
     }
@@ -89,19 +91,18 @@ const SignUp = () => {
     const { value } = e.target;
 
     setPassword(value);
-    console.log(password);
-
     calculatePasswordStrength(value);
+  };
+
+  const handleClick = () => {
+    setIsIconClicked(!isIconClicked);
   };
 
   return (
     <>
       <div className="signUp-bg">
         <div className="signUp-box mb-5">
-          <form
-            className="signUp-form"
-            onSubmit={handleSubmit}
-          >
+          <form className="signUp-form" onSubmit={handleSubmit}>
             <h2 className="signUp-h">Sign Up</h2>
             {error && <div class="text-danger">{error}</div>}
             <div className="signUp-inputBox">
@@ -135,12 +136,25 @@ const SignUp = () => {
                 className="signUp-inp"
                 name="password"
                 id="password"
-                type="password"
+                type={isIconClicked ? "text" : "password"}
                 required
                 onChange={handlePasswordChange}
               />
+
               <span className="signUp-sp">Password</span>
+
               <i></i>
+            </div>
+            <div
+              className="btn text-white"
+              onClick={handleClick}
+              style={{ minHeight: "1vh" }}
+            >
+              {isIconClicked ? (
+                <i className="fa-solid fa-eye-slash"></i>
+              ) : (
+                <i className="fa-solid fa-eye"></i>
+              )}
             </div>
             <div className="signUp-inputBox">
               <input

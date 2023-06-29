@@ -1,7 +1,12 @@
 import React from "react";
+import { useState } from "react";
 import "./style.css";
 
 const Login = () => {
+  const [isIconClicked, setIsIconClicked] = useState(false);
+  const handleClick = () => {
+    setIsIconClicked(!isIconClicked);
+  };
   return (
     <>
       <div className="login-bg">
@@ -25,11 +30,22 @@ const Login = () => {
                 className="login-inp"
                 name="password"
                 id="password"
-                type="password"
+                type={isIconClicked ? "text" : "password"}
                 required
               />
               <span className="login-sp">Password</span>
               <i></i>
+            </div>
+            <div
+              className="btn text-white"
+              onClick={handleClick}
+              style={{ minHeight: "1vh" }}
+            >
+              {isIconClicked ? (
+                <i className="fa-solid fa-eye-slash"></i>
+              ) : (
+                <i className="fa-solid fa-eye"></i>
+              )}
             </div>
             <input className="login-sb" type="submit" value="Login" />
             <div className="login-links justify-content-center">

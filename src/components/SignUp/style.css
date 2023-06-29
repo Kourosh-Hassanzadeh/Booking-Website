@@ -166,3 +166,6 @@ input.signUp-sb[type="submit"]:active {
 input.signUp-inp[type="password"]:focus ~ .sp-st {
   display: block;
 }
+input.signUp-inp[type="text"]:focus ~ .sp-st {
+  display: block;
+}
