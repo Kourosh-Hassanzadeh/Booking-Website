@@ -1,5 +1,9 @@
 import React from "react";
 import "./style.css";
+import hotel1 from "../../assets/images/hotel1.jpg";
+import hotel2 from "../../assets/images/hotel2.jpg";
+import hotel3 from "../../assets/images/hotel3.jpg";
+import hotel4 from "../../assets/images/hotel4.jpg";
 
 const Hotels = () => {
   return (
@@ -79,7 +83,14 @@ const Hotels = () => {
                 </div>
               </form>
             </div>
-            <div className="col-md-2"></div>
+            <div className="col-md-2">
+              <div className="gallery">
+                <img src={hotel1} alt="hotel1" />
+                <img src={hotel2} alt="hotel2" />
+                <img src={hotel3} alt="hotel3" />
+                <img src={hotel4} alt="hotel4" />
+              </div>
+            </div>
             <div className="col-md-4 justify-content-center test">
               <div className="text-hotel">
                 Experience the joy of traveling
