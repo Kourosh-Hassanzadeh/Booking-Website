@@ -39,10 +39,10 @@ input.hotel-inp:hover {
 label.hotel-lb {
   color: white;
 }
-.gallery {
+/* .gallery {
   margin-top: 250px;
-  --g: 8px; /* the gap */
-  --s: 400px; /* the size */
+  --g: 8px;
+  --s: 400px;
 
   display: grid;
   border-radius: 50%;
@@ -113,7 +113,7 @@ label.hotel-lb {
     calc(120% * var(--_i, 0)) calc(100% - 50% * var(--_i, 0))
   );
   --_x: calc(-1 * var(--g));
-}
+} */
 
 @media screen and (max-width: 760px) {
   .test {

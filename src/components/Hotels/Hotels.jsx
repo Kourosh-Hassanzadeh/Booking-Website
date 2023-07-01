@@ -84,12 +84,12 @@ const Hotels = () => {
               </form>
             </div>
             <div className="col-md-2">
-              <div className="gallery">
+              {/* <div className="gallery">
                 <img src={hotel1} alt="hotel1" />
                 <img src={hotel2} alt="hotel2" />
                 <img src={hotel3} alt="hotel3" />
                 <img src={hotel4} alt="hotel4" />
-              </div>
+              </div> */}
             </div>
             <div className="col-md-4 justify-content-center test">
               <div className="text-hotel">

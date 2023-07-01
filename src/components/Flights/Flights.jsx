@@ -45,7 +45,7 @@ const Flights = () => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <label className="flight-lb" for="departure">
-                        departure Date
+                        Departure Date
                       </label>
                       <input
                         className="flight-inp"
